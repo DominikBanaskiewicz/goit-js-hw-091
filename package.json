@@ -1,0 +1,37 @@
+{
+  "name": "goit-js-hw-091",
+  "version": "2.0.0",
+  "description": "This project was created with Parcel. For familiarization and setting additional features [refer to documentation](https://parceljs.org/).",
+  "homepage": "https://github.com/DominikBanaskiewicz",
+  "scripts": {
+    "start": "parcel src/*.html  --public-url",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-091/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DominikBanaskiewicz/goit-js-hw-091.git"
+  },
+  "keywords": [],
+  "author": "Dominik Banaśkiewicz <banaskiewiczdominik@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DominikBanaskiewicz/goit-js-hw-091/issues"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.20.1",
+    "@vimeo/player": "^2.18.0",
+    "flatpickr": "^4.6.13",
+    "lodash.throttle": "^4.1.1",
+    "modern-normalize": "^1.1.0",
+    "notiflix": "^3.2.5",
+    "simplelightbox": "^2.10.4"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.19.6",
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
